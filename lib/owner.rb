@@ -70,6 +70,7 @@ class Owner
   end
   
   def list_pets
-    
+    all_pets = self.dogs + self.cats
+    all_pets
   end
 end
