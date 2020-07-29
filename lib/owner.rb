@@ -25,9 +25,7 @@ class Owner
   end
   
   def cats
-    Cat.all.collect do |cats|
-      cats.owner == self
-    end
+    Cat.all.collect {|cats| cats.owner == self}
   end
   
   def dogs
