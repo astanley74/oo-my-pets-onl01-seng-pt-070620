@@ -70,5 +70,6 @@ class Owner
   end
   
   def list_pets
+    3
   end
 end
