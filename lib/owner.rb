@@ -43,7 +43,6 @@ class Owner
   
   def buy_dog(name)
     new_dog = Dog.new(name, self)
-    new_dog
   end
   
   def walk_dogs
